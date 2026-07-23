@@ -1,0 +1,17 @@
+# ESP-IDF build artifacts
+build/
+sdkconfig
+sdkconfig.old
+dependencies.lock
+managed_components/
+
+# KiCad backups and caches
+kicad/*-backups/
+kicad/*.kicad_pcb-bak
+kicad/*.kicad_sch-bak
+kicad/fp-info-cache
+kicad/**/__pycache__/
+
+# OS
+.DS_Store
+Thumbs.db
